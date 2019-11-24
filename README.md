@@ -22,7 +22,7 @@ Run the grid_search.py file, copy the parameters obtained so into train.py and r
 * preprocessedtest2019.csv : Youtube data (processed) collected in Nov 2019
 * train.csv : Training sample extracted from preprocessedIndia.csv
 * test.csv : Test sample extracted from preprocessedIndia.csv
-* trained_model : Pre-trained Random Forest Regressor model
+* trained_model : Pre-trained Random Forest Regressor model ( is generated on running train.py)
 
 ## Useful links
 
