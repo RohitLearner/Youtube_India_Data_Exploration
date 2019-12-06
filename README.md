@@ -51,7 +51,8 @@ The parameters of an algorithm always affect its performance. Grid Search and Cr
 - Anand Bhararia
 - Basant Kumar Bhala 
 - Jayabrata Das 
-	(IIT Bombay)
+	
+(IIT Bombay Students)
 
 ## Feedback
 Feel free to send us feedback on [file an issue](https://github.com/RohitLearner/Youtube_India_Data_Exploration/issues). Feature requests are always welcome. If you wish to contribute, please take a quick look at the [documentation](https://github.com/RohitLearner/Youtube_India_Data_Exploration/tree/master/documentation).
