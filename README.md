@@ -37,8 +37,7 @@ Random Forest Regressor was chosen as the learning algorithm for modeling the Li
 The parameters of an algorithm always affect its performance. Grid Search and Cross-Validation were used to tune the parameters for the model.
 
 ## Prediction & Conclusion
- The final 
- - Likes for old dataset		- 0.93
+- Likes for old dataset		- 0.93
 - Views for old dataset		- 0.91
 - Likes for new dataset		- 0.80
 - Views for new dataset		- 0.75
