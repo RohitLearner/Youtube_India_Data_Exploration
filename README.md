@@ -32,7 +32,7 @@ Run the grid_search.py file, copy the parameters obtained so into train.py and r
 Preprocessing and data visualisation - <https://www.kaggle.com/iamrohitsingh/youtube-india-data-exploration>
 
 ## Machine Learning Model
-Random Forest Regressor was chosen as the learning algorithm for modeling the Like & View counts predictions. It is an ensemble method where multiple base estimators(tree) are trained on sub-samples of input data and give output after averaging the result of all estimators. Considering the size of the dataset, computational power available and ability of estimator to fit data, this model was considered.
+Random Forest Regressor was chosen as the learning algorithm for modeling the Like & View counts predictions. It is an ensemble method where multiple base estimators (tree) are trained on sub-samples of input data and give output after averaging the result of all estimators. Considering the size of the dataset, computational power available and ability of estimator to fit data, this model was considered.
 
 The parameters of an algorithm always affect its performance. Grid Search and Cross-Validation were used to tune the parameters for the model.
 
@@ -43,7 +43,7 @@ The parameters of an algorithm always affect its performance. Grid Search and Cr
 - Views for new dataset		- 0.75
 	 ###### * numbers are in R2 scores.
 	 
-* Based on the final result, we conclude that youtube data is highly temporal which can be proved by our data visualization.*
+*Based on the final result, we conclude that youtube data is highly temporal which can be proved by our data visualization.*
 
 ## Contributors
 
