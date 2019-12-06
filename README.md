@@ -1,10 +1,13 @@
+
+![Youtube Logo](https://1000logos.net/wp-content/uploads/2017/05/YouTube-logo-500x277.png)
+
 # Youtube India Data Exploration
 
-Analyse Youtube videos and predict likes and views.
+This is a project regarding predicting YouTube Like & View Counts using Machine Learning Techniques. This project also allows us to analyze the fundamental variables that affect the virality of the video.
 
 ## Requirements
 
-User must have Sckit-learn, Pandas and Python 3 installed.
+Users must have Sckit-learn, Pandas and Python 3 installed.
 
 ## Usage
 
@@ -28,6 +31,36 @@ Run the grid_search.py file, copy the parameters obtained so into train.py and r
 
 Preprocessing and data visualisation - <https://www.kaggle.com/iamrohitsingh/youtube-india-data-exploration>
 
-## Contributers
+## Machine Learning Model
+Random Forest Regressor was chosen as the learning algorithm for modeling the Like & View counts predictions. It is an ensemble method where multiple base estimators(tree) are trained on sub-samples of input data and give output after averaging the result of all estimators. Considering the size of the dataset, computational power available and ability of estimator to fit data, this model was considered.
 
-Anand Bhararia, Basant Kumar Bhala, Rohit Kumar Singh and Jayabrata Das (IIT Bombay)
+The parameters of an algorithm always affect its performance. Grid Search and Cross-Validation were used to tune the parameters for the model.
+
+## Prediction & Conclusion
+ The final 
+ - Likes for old dataset		- 0.93
+- Views for old dataset		- 0.91
+- Likes for new dataset		- 0.80
+- Views for new dataset		- 0.75
+	 ###### * numbers are in R2 scores.
+	 
+* Based on the final result, we conclude that youtube data is highly temporal which can be proved by our data visualization.*
+
+## Contributors
+
+- Rohit Kumar Singh
+- Anand Bhararia
+- Basant Kumar Bhala 
+- Jayabrata Das 
+	(IIT Bombay)
+
+## Feedback
+Feel free to send us feedback on [file an issue](https://github.com/RohitLearner/Youtube_India_Data_Exploration/issues). Feature requests are always welcome. If you wish to contribute, please take a quick look at the [documentation](https://github.com/RohitLearner/Youtube_India_Data_Exploration/tree/master/documentation).
+
+## Acknowledgments
+Inspirations are drawn from various Kaggle projects but majorly incentive is from the following :
+1.  [https://www.kaggle.com/residentmario/creating-reading-and-writing](https://www.kaggle.com/residentmario/creating-reading-and-writing)
+2.  [https://www.kaggle.com/skalskip/youtube-data-exploration-and-plotly-visualization](https://www.kaggle.com/skalskip/youtube-data-exploration-and-plotly-visualization)
+3.  [https://www.kaggle.com/kabure/extensive-usa-youtube-eda](https://www.kaggle.com/kabure/extensive-usa-youtube-eda)
+
+> Written with [StackEdit](https://stackedit.io/).
